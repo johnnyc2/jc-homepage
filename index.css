@@ -1,14 +1,82 @@
 body {
-  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
-#nav-bar {
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/static/images/abhishek-tanwar-FFbGDH7yHc4-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  position: absolute;
+  top: 10px;
+}
+
+.nav-bar {
   list-style: none;
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  padding: 10px;
 }
 
-li {
+.nav-link {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1em;
   padding: 10px;
+}
+
+.nav-link:hover {
+  color: orange;
+  font-weight: 700;
+}
+
+.hero-text {
+  color: white;
+  text-align: left;
+  width: 70%;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 30px;
+}
+
+.text-subtitle {
+  font-size: 20px;
+}
+
+#text-city {
+  color: gold;
+}
+
+#text-country {
+  color: greenyellow;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  background-color: black;
+  color: white;
 }
