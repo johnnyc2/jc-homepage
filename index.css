@@ -5,6 +5,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+li {
+  list-style: none;
+}
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/static/images/abhishek-tanwar-FFbGDH7yHc4-unsplash.jpg);
@@ -69,6 +72,15 @@ nav {
 
 #text-country {
   color: greenyellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  text-align: center;
+  margin: 0px;
 }
 
 footer {
