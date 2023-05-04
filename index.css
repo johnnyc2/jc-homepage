@@ -149,14 +149,21 @@ footer {
 }
 
 #connect {
-  align-content: center;
+  min-width: 300px;
+  text-align: center;
 }
+
+#connect h2 {
+}
+
 #linkedin {
   color: #0077b5;
+  font-size: 1.25rem;
 }
 
 #github {
   color: gray;
+  font-size: 1.25rem;
 }
 
 h2 {
