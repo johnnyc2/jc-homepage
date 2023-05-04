@@ -14,9 +14,8 @@
 </head>
 
 <body>
-
-  <main>
-    <div class="hero-image">
+  <header>
+    <div class="nav-container">
       <nav>
         <ul class="nav-bar">
           <li><a class="nav-link" href=" index.html#intro">About Me</a></li>
@@ -29,27 +28,34 @@
           <!-- <li><a class="nav-link" href=" index.html#contact">Contact</a></li> -->
         </ul>
       </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-image">
+
 
       <div class="hero-text">
         <h1>Hi, I'm John Capito</h1>
-        <p>Your <span id="job-titles">business automation</span> & <span id="job-titles">artificial intelligence</span> expert</p>
+        <p>Your <span class="job-titles">business automation</span> & <span class="job-titles">artificial intelligence</span> expert</p>
         <div class="text-subtitle"><span>Based in <span id="text-city">Sydney</span> transforming and empowering clients across </span><span id="text-country">Australia</span></div>
       </div>
-    </div>
-
-    <section class="container" id="intro">
-      <h2>About Me</h2>
-      <p>
-        I'm John Capito, a data automation expert with a passion for
-        transforming data-driven processes and unlocking valuable insights.
-        With experience in the big 4 consulting world, I'm ready to help you
-        revolutionise your data management. Let's work together to make your data work for
-        you.
-      </p>
-      <!-- Add your professional photo here -->
     </section>
 
-    <!-- <section id="about">
+    <div class="section-container">
+      <section class="container" id="intro">
+        <h2>About Me</h2>
+        <p>
+          I'm John Capito, a data automation expert with a passion for
+          transforming data-driven processes and unlocking valuable insights.
+          With experience in the big 4 consulting world, I'm ready to help you
+          revolutionise your data management. Let's work together to make your data work for
+          you.
+        </p>
+        <!-- Add your professional photo here -->
+      </section>
+
+      <!-- <section id="about">
     <h2>About Me</h2>
     <p>[Personal story]</p>
     <p>
@@ -60,69 +66,69 @@
     </p>
   </section> -->
 
-    <section class="container" id="skills">
-      <h2>Why Me?</h2>
-      <div id="flex">
-        <div class="skills">
-          <h3>Technical Skills</h3>
-          <ul>
-            <li>
-              Proficient with Alteryx, Python, and SQL for data exploration, transformation, and analysis</li>
-            <li>Experience with ETL tools, such as Alteryx</li>
-            <li>Skilled in creating visualizations using Power BI and Tableau</li>
-          </ul>
+      <section class="container" id="skills">
+        <h2>Why Me?</h2>
+        <div id="skills-flex">
+          <div class="skills">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>
+                Proficient with Alteryx, Python, and SQL for data exploration, transformation, and analysis</li>
+              <li>Experience with ETL tools, such as Alteryx</li>
+              <li>Skilled in creating visualizations using Power BI and Tableau</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>
+                Effective communicator with a knack for presenting complex data in
+                an accessible way
+              </li>
+              <li>
+                Collaborative team player with experience working in diverse
+                environments
+              </li>
+              <li>
+                Adept at project management, ensuring timely completion and client
+                satisfaction
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="skills">
-          <h3>Soft Skills</h3>
-          <ul>
-            <li>
-              Effective communicator with a knack for presenting complex data in
-              an accessible way
-            </li>
-            <li>
-              Collaborative team player with experience working in diverse
-              environments
-            </li>
-            <li>
-              Adept at project management, ensuring timely completion and client
-              satisfaction
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- <h3>Industry Knowledge</h3>
+        <!-- <h3>Industry Knowledge</h3>
     <p>Experience in [Industries or Sectors You've Worked In]</p> -->
-    </section>
+      </section>
 
-    <section class="container" id="services">
-      <h2>Services</h2>
-      <ul>
-        <li>
-          Data Transformation: Streamline your data processes with efficient
-          and effective data transformation solutions tailored to your unique
-          needs.
-        </li>
-        <li>
-          Data Modeling: Uncover hidden patterns and relationships in your
-          data using advanced modeling techniques.
-        </li>
-        <li>
-          Data Analysis: Unlock actionable insights and drive better
-          decision-making through comprehensive data analysis.
-        </li>
-        <li>
-          Process Improvement: Identify and implement process improvements to
-          enhance efficiency and effectiveness in your data-driven operations.
-        </li>
-        <li>
-          Machine Learning: Leverage machine learning techniques to develop
-          predictive models and classification algorithms that support your
-          business goals.
-        </li>
-      </ul>
-    </section>
+      <section class="container" id="services">
+        <h2>Services</h2>
+        <ul>
+          <li>
+            Data Transformation: Streamline your data processes with efficient
+            and effective data transformation solutions tailored to your unique
+            needs.
+          </li>
+          <li>
+            Data Modeling: Uncover hidden patterns and relationships in your
+            data using advanced modeling techniques.
+          </li>
+          <li>
+            Data Analysis: Unlock actionable insights and drive better
+            decision-making through comprehensive data analysis.
+          </li>
+          <li>
+            Process Improvement: Identify and implement process improvements to
+            enhance efficiency and effectiveness in your data-driven operations.
+          </li>
+          <li>
+            Machine Learning: Leverage machine learning techniques to develop
+            predictive models and classification algorithms that support your
+            business goals.
+          </li>
+        </ul>
+      </section>
 
-    <!-- <section id="contact">
+      <!-- <section id="contact">
     <h2>Contact</h2>
     <p>
       Interested in working together or learning more about how I can help
@@ -144,14 +150,22 @@
     <p>Email: [Email Address]</p>
     <p>Phone: [Phone Number]</p>
   </section> -->
+
+      <section class="container" id="connect">
+        <p>Let's connect on: <a id="linkedin" class="nav-link" href="https://www.linkedin.com/in/johnpcapito/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a id="github" class="nav-link" href="https://github.com/johnnyc2" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+      </section>
+    </div>
+
   </main>
 </body>
 
+
 <footer>
-  <p>Let's connect on: <a id="linkedin" class="nav-link" href="https://www.linkedin.com/in/johnpcapito/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a id="github" class="nav-link" href="https://github.com/johnnyc2" target="_blank" rel="noopener noreferrer">GitHub</a>
-  </p>
-  <p>John Capito &copy; 2023. All rights reserved.</p>
+  <div id="footer-flex">
+    <p id="copyright">John Capito &copy; 2023. All rights reserved.</p>
+  </div>
 </footer>
 
 
